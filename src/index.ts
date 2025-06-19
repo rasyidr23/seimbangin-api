@@ -6,7 +6,7 @@ import userRouter from "./routes/user.routes";
 import transactionRouter from "./routes/transaction.routes";
 import financialProfileRouter from "./routes/financialProfile.routes";
 
-// intialize express
+// initialize express
 const app: Express = express();
 
 app.use(express.urlencoded({ extended: true }));
@@ -35,8 +35,4 @@ app.get("/protected", authenticateJWT, (req: Request, res: Response) => {
   });
 });
 
-app.listen(3000, () => {
-  console.log(
-    "🎉 Server Expressnya dah jalan ya beb! 🚀 disini yhh http://localhost:3000",
-  );
-});
+export default app;
