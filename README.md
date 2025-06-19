@@ -1,12 +1,3 @@
-# Hello Anak Bangkit
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://media.tenor.com/PwyXG1fXm_IAAAAM/asuka-langley.gif">
-    <img alt="Taipy" src="https://c.tenor.com/oifgBY6atjsAAAAC/tenor.gif" width="600" />
-  </picture>
-</div>
-
 ### How to run
 
 1. `npm i`
